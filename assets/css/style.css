@@ -1,0 +1,1144 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	overflow-x: hidden;
+}
+
+.container {
+	max-width: 1170px;
+	margin: auto;
+}
+
+.container:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+ol,
+ul {
+	list-style-type: none;
+}
+
+strong {
+	font-weight: 500;
+}
+
+*:focus {
+	outline: none;
+}
+
+.navbar-toggler:focus {
+	box-shadow: none;
+}
+
+navbar-light .navbar-toggler {
+	border: none;
+}
+
+
+/********* Header *********/
+
+header .navbar {
+	padding: 30px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	transition: top 0.3s;
+	z-index: 3;
+}
+
+header .navbar .navbar-brand img {
+	width: 100px;
+}
+
+header .navbar .navbar-brand img.logo-mobile {
+	display: none;
+}
+
+header .navbar .navbar-nav img.logo-desktop {
+	width: 200px;
+}
+
+header .navbar .navbar-nav {
+	align-items: center;
+	text-transform: uppercase;
+}
+
+header .navbar .navbar-nav .nav-link {
+	padding: 20px;
+	font-size: 13px;
+}
+
+header .navbar .navbar-nav .nav-link-logo {
+	padding: 0 80px;
+}
+
+.scroll-color {
+	background-color: #fff;
+	transition: 0.5s;
+}
+
+
+/********* fine Header *********/
+
+
+/********* Main *********/
+
+
+/********* Hero *********/
+
+main #hero {
+	padding-top: 150px;
+	background: rgb(208, 194, 244);
+	background: -moz-linear-gradient(180deg, rgba(208, 194, 244, 1) 0%, rgba(255, 255, 255, 1) 100%);
+	background: -webkit-linear-gradient(180deg, rgba(208, 194, 244, 1) 0%, rgba(255, 255, 255, 1) 100%);
+	background: linear-gradient(180deg, rgba(208, 194, 244, 1) 0%, rgba(255, 255, 255, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d0c2f4", endColorstr="#ffffff", GradientType=1);
+}
+
+main #hero .hero-main-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+
+main #hero .hero-main-box img {
+	width: 850px;
+}
+
+
+/********* fine Hero *********/
+
+
+/********* Slider *********/
+
+main #slider1 {
+	margin-top: 150px;
+}
+
+.swiper {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	transition: all 200ms linear;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	transform: scale(0.90);
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	min-height: 600px;
+}
+
+.swiper-slide-next {
+	transform: scale(1);
+}
+
+
+/********* fine Slider *********/
+
+
+/********* cta1 *********/
+
+main #cta1 {
+	margin-top: 150px;
+}
+
+main #cta1 .cta1-main-box {
+	text-align: center;
+	padding: 0 40px;
+}
+
+main #cta1 .cta1-main-box .box-text {
+	margin-bottom: 50px;
+}
+
+main #cta1 .cta1-main-box .box-text h2 {
+	margin-bottom: 30px;
+	font-weight: 300;
+	font-size: 40px;
+	color: #343434;
+}
+
+main #cta1 .cta1-main-box .box-text p {
+	font-size: 14px;
+	color: #646464;
+	line-height: 24px;
+}
+
+main #cta1 .cta1-main-box .box-btn .btn-cta {
+	font-size: 14px;
+	padding: 15px 35px;
+	line-height: 16px;
+	background-color: #232323;
+	border-color: #232323;
+	color: #fff;
+	border-radius: 0%;
+}
+
+main #cta1 .cta1-main-box .box-btn .btn-cta:hover {
+	background-color: transparent;
+	color: #232323;
+}
+
+
+/********* fine cta1 *********/
+
+
+/********* banner1 *********/
+
+main #banner1 {
+	background-image: url('../img/banner-1.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	margin-top: 150px;
+	text-align: center;
+	min-height: 400px;
+}
+
+main #banner1 .banner1-main-box {
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main #banner1 .banner1-main-box .box-text .box-title {
+	margin-bottom: 30px;
+}
+
+main #banner1 .banner1-main-box .box-text .box-title h2 {
+	font-size: 70px;
+	line-height: 60px;
+	color: #ffffff;
+}
+
+main #banner1 .banner1-main-box .box-text .box-p p {
+	font-size: 70px;
+	line-height: 70px;
+	color: #f95e5e;
+	background-color: #ffffff;
+	padding: 10px 15px 11px;
+	font-weight: bold;
+}
+
+main #banner2 .container-fluid .row>* {
+	padding-right: calc(var(--bs-gutter-x) * .2);
+	padding-left: calc(var(--bs-gutter-x) * .2);
+}
+
+main #banner2 .main-box-1 {
+	background-image: url('../img/banner-2.jpg');
+}
+
+main #banner2 .main-box-2 {
+	background-image: url('../img/banner-3-2.jpg');
+}
+
+main #banner2 .main-box-1,
+.main-box-2 {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	min-height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 10%;
+}
+
+main #banner2 .sub-title {
+	padding-bottom: 20px;
+}
+
+main #banner2 .sub-title p {
+	font-size: 14px;
+	line-height: 19px;
+	margin-bottom: 13px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+main #banner2 .main-text p {
+	text-align: left;
+	font-size: 38px;
+	line-height: 50px;
+	color: #f95e5e;
+}
+
+main #banner2 .main-text span {
+	font-weight: 100;
+}
+
+
+/********* fine banner1 *********/
+
+
+/********* slider2 *********/
+
+main #slider2 .slider2-main-box {
+	margin: 100px auto;
+	text-align: center;
+}
+
+main #slider2 .slider2-main-box .box-text .box-sub-title p {
+	color: #343434;
+	font-size: 12px;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+main #slider2 .slider2-main-box .box-text .box-title h2 {
+	text-align: center;
+	color: #624e97;
+	font-size: 50px;
+	line-height: 50px;
+	font-weight: 300;
+}
+
+.swiper2 {
+	width: 100%;
+	height: 100%;
+}
+
+.slide-2 {
+	transform: scale(1);
+}
+
+.swiper-slide2 img {
+	display: block;
+	width: 100%;
+	height: 600px;
+	object-fit: cover;
+}
+
+
+/********* fine slider2 *********/
+
+
+/********* cooming-soon *********/
+
+main #cooming-soon {
+	margin-top: 130px;
+}
+
+main #cooming-soon .container-fluid .row>* {
+	padding-right: calc(var(--bs-gutter-x) * .0);
+	padding-left: calc(var(--bs-gutter-x) * .0);
+}
+
+main #cooming-soon .main-box-left {
+	background: #665790;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+main #cooming-soon .main-box-left .box-left {
+	width: 70%;
+}
+
+main #cooming-soon .main-box-left .box-left .subtitle p {
+	font-size: 40px;
+	line-height: 40px;
+	font-weight: 200;
+}
+
+main #cooming-soon .main-box-left .box-left .title h2 {
+	font-size: 65px;
+	line-height: 85px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+main #cooming-soon .main-box-left .box-left .text p {
+	font-size: 12px;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+
+main #cooming-soon .main-box-left .box-left .input .btn-iscriviti {
+	background-color: #5c4f80;
+	color: #fff;
+	border: 0;
+	padding: 16px;
+	font-size: 13px;
+	text-transform: uppercase;
+	margin-left: 10px;
+}
+
+main #cooming-soon .main-box-left .box-left .input {
+	margin-bottom: 30px;
+}
+
+main #cooming-soon .main-box-left .box-left .input input {
+	background-color: #5c4f80;
+	color: #fff;
+	border: 0;
+	padding: 16px;
+	font-size: 13px;
+	width: 80%;
+}
+
+main #cooming-soon .main-box-left .box-left .input input::placeholder {
+	color: #fff;
+	font-weight: 300;
+	font-size: 13px;
+}
+
+main #cooming-soon .main-box-left .box-left .privacy {
+	display: flex;
+}
+
+main #cooming-soon .main-box-left .box-left .privacy .text-privacy p {
+	font-size: 13px;
+	font-weight: 300;
+	text-align: center;
+}
+
+main #cooming-soon .main-box-left .box-left .privacy .checkbox {
+	margin-left: 10px;
+}
+
+main #cooming-soon .main-box-right .box-img img {
+	min-height: 600px;
+	object-fit: cover;
+}
+
+
+/********* fine cooming-soon *********/
+
+
+/********* nuova-apertura *********/
+
+main #nuova-apertura {
+	margin-top: 100px;
+}
+
+main #nuova-apertura .main-box {
+	background-image: url('../img/open-4-1.jpg');
+	background-attachment: fixed;
+	min-height: 350px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+main #nuova-apertura .main-box .box-centered {
+	width: 70%;
+	background-color: #fff;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+main #nuova-apertura .main-box .box-centered .subtitle p {
+	color: #b3b3b3;
+	font-size: 14px;
+	margin-bottom: 15px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+main #nuova-apertura .main-box .box-centered .title h2 {
+	font-size: 50px;
+	color: #ea5a6a;
+	margin-bottom: 40px;
+	margin-top: 15px;
+	line-height: 50px;
+}
+
+main #nuova-apertura .main-box .box-centered .text p {
+	font-size: 13px;
+	color: #646464;
+}
+
+
+/********* fine nuova-apertura *********/
+
+
+/********* punti-vendita *********/
+
+main #punti-vendita {
+	margin-top: 150px;
+	margin-bottom: 100px;
+}
+
+main #punti-vendita .box-title h2 {
+	text-align: center;
+	color: #ea5a6a;
+	font-weight: 500;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+main #punti-vendita .box-input {
+	display: flex;
+	align-items: center;
+	margin-top: 55px;
+	margin-bottom: 45px;
+}
+
+main #punti-vendita .search {
+	width: 300px;
+	margin-right: 10px;
+}
+
+main #punti-vendita .search input,
+select {
+	border: 1px solid #e1e1e1;
+	border-radius: 4px;
+	padding: 0 10px;
+	height: 44px;
+	width: 100%;
+	background: #fff;
+	color: #000;
+	font-size: 16px;
+	line-height: normal;
+	font-weight: 400;
+}
+
+main #punti-vendita .box-input .search input:placeholder {
+	opacity: 0.3;
+	font-size: 12px;
+}
+
+main #punti-vendita select {
+	cursor: pointer;
+}
+
+main #punti-vendita .container .row-2>* {
+	padding-right: calc(var(--bs-gutter-x) * .0);
+	padding-left: calc(var(--bs-gutter-x) * .0);
+}
+
+main #punti-vendita .main-box .box-list {
+	padding: 20px;
+}
+
+main #punti-vendita .main-box .box-list .box-title h3 {
+	color: #000;
+	font-size: 18px;
+	line-height: 1.2;
+	font-weight: 700;
+}
+
+main #punti-vendita .main-box .box-list .box-text p {
+	margin: 5px 0 0;
+	padding: 0;
+	color: #000;
+	font-size: 12px;
+	line-height: 1.4286;
+	font-weight: 400;
+}
+
+main #punti-vendita .sidebar {
+	background: #fff;
+	overflow: hidden;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+	-ms-scroll-chaining: none;
+	overscroll-behavior: contain;
+	position: relative;
+	height: 600px;
+}
+
+main #punti-vendita .sidebar .main-box {
+	border: 1px solid #808080;
+}
+
+main #punti-vendita .maps .box-img img {
+	height: 600px;
+	object-fit: cover;
+}
+
+
+/********* fine punti-vendita *********/
+
+
+/********* lavora-con-noi *********/
+
+main #lavora-con-noi .container-fluid {
+	background-image: url('../img/img-parallax-2.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow: hidden;
+	min-height: 400px;
+	text-align: center;
+}
+
+main #lavora-con-noi .container-fluid .main-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+	position: relative;
+}
+
+main #lavora-con-noi .container-fluid .main-box .box-title {
+	z-index: 1;
+}
+
+main #lavora-con-noi .container-fluid .main-box .box-title h2 {
+	color: #fff;
+	font-size: 50px;
+	font-weight: 200;
+}
+
+main #lavora-con-noi .overlay {
+	background-color: #232323;
+	opacity: 0.60;
+	z-index: 0;
+	left: 0;
+	top: 0;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+main #lavora-con-noi .container-fluid {
+	padding-right: var(--bs-gutter-x, .0rem);
+	padding-left: var(--bs-gutter-x, .0rem);
+}
+
+main #lavora-con-noi .container .main-box {
+	transform: translateY(-80px);
+	background: white;
+}
+
+main #lavora-con-noi .container .main-box .box-content {
+	padding: 30px;
+}
+
+main #lavora-con-noi .container .main-box .box-content .box-title {
+	padding-top: 30px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+main #lavora-con-noi .container .main-box .box-content .box-title h2 {
+	color: #ea5a6a;
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+main #lavora-con-noi .accordion-button {
+	color: #000;
+	background-color: #FBEBF0;
+	box-shadow: none;
+	padding: 25px;
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+main #lavora-con-noi .accordion-body {
+	padding: 25px;
+}
+
+main #lavora-con-noi .accordion-body p {
+	font-size: 12px;
+	color: #808080;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+main #lavora-con-noi .accordion-body p strong {
+	color: #000;
+	text-transform: uppercase;
+}
+
+
+/********* fine lavora-con-noi *********/
+
+
+/********* footer *********/
+
+footer {
+	background-color: #343434;
+	color: #8a8a8a;
+	font-size: 12px;
+}
+
+footer .logo img {
+	width: 300px;
+}
+
+footer .row-top .col-lg-12 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #8a8a8a;
+	opacity: 0.8;
+}
+
+footer .row-top .col-lg-12 {
+	padding-top: 50px;
+}
+
+footer .row-top .col-lg-12 .main-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer .row-top .col-lg-12 .main-box .social {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
+}
+
+footer .row-top .col-lg-12 .main-box .social .facebook {
+	margin-right: 15px;
+}
+
+footer .row-top .col-lg-12 .main-box .social .facebook .fa-facebook-f,
+.fa-instagram {
+	text-transform: uppercase;
+	font-size: 10px;
+	font-size: 12px;
+	line-height: 22px;
+	color: #8a8a8a;
+}
+
+footer .row-top .col-lg-12 .main-box .social span {
+	margin-left: 5px;
+}
+
+footer .row-bottom .col-lg-12 .main-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+footer .row-bottom .col-lg-12 .main-box .terms {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
+}
+
+footer .row-bottom .col-lg-12 .main-box .terms .privacy {
+	margin-right: 15px;
+	text-transform: capitalize;
+	cursor: pointer;
+}
+
+footer .row-bottom .col-lg-12 .main-box .terms .cookie {
+	text-transform: capitalize;
+	cursor: pointer;
+}
+
+footer .row-bottom .col-lg-12 .main-box .credits {
+	text-transform: capitalize;
+	cursor: pointer;
+}
+
+
+/********* fine footer *********/
+
+
+/*
+*
+*
+*
+*
+*
+*
+*
+*
+/********* media query mobile *********/
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+	header .navbar {
+		position: relative;
+		width: 100%;
+		transition: top 0.3s;
+	}
+	header #navbarNav {
+		width: 100%;
+	}
+	header .navbar .navbar-nav img.logo-desktop {
+		display: none;
+	}
+	header .navbar .navbar-brand img.logo-mobile {
+		display: block;
+	}
+	main #hero {
+		padding-top: 0;
+	}
+	main #banner1 .banner1-main-box .box-text .box-title h2 {
+		font-size: 38px;
+	}
+	main #banner1 .banner1-main-box .box-text .box-p p {
+		font-size: 38px;
+	}
+	main #cta1 .cta1-main-box {
+		padding: 0 10px;
+	}
+	main #cta1 .cta1-main-box .box-text h2 {
+		font-size: 28px;
+	}
+	main #cooming-soon .main-box-left {
+		padding: 25px;
+	}
+	main #cooming-soon .main-box-left .box-left {
+		width: 100%;
+	}
+	main #cooming-soon .main-box-left .box-left .input {
+		display: flex;
+	}
+	main #cooming-soon .main-box-left .box-left .title h2 {
+		font-size: 45px;
+	}
+	main #cooming-soon .main-box-left .box-left .subtitle p {
+		font-size: 32px;
+	}
+	main #slider2 .slider2-main-box .box-text .box-title h2 {
+		font-size: 38px;
+	}
+	main #punti-vendita .search {
+		width: 204px;
+	}
+	main #punti-vendita .sidebar {
+		width: 80%;
+		margin: auto;
+	}
+	main #nuova-apertura .main-box .box-centered .title h2 {
+		font-size: 30px;
+	}
+	main #nuova-apertura .main-box .box-centered {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	main #lavora-con-noi .container-fluid .main-box .box-title h2 {
+		font-size: 44px;
+	}
+	footer .row-top .col-lg-12 .main-box {
+		display: block;
+		justify-content: space-between;
+		align-items: center;
+	}
+	footer .logo {
+		margin-bottom: 15px;
+	}
+	footer .logo img {
+		width: 200px;
+	}
+}
+
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+	header .navbar {
+		position: relative;
+		width: 100%;
+		transition: top 0.3s;
+	}
+	header #navbarNav {
+		width: 100%;
+	}
+	header .navbar .navbar-nav img.logo-desktop {
+		display: none;
+	}
+	header .navbar .navbar-brand img.logo-mobile {
+		display: block;
+	}
+	main #hero {
+		padding-top: 0;
+	}
+	main #banner1 .banner1-main-box .box-text .box-title h2 {
+		font-size: 38px;
+	}
+	main #banner1 .banner1-main-box .box-text .box-p p {
+		font-size: 38px;
+	}
+	main #cta1 .cta1-main-box {
+		padding: 0 10px;
+	}
+	main #cta1 .cta1-main-box .box-text h2 {
+		font-size: 28px;
+	}
+	main #cooming-soon .main-box-left {
+		padding: 25px;
+	}
+	main #cooming-soon .main-box-left .box-left {
+		width: 100%;
+	}
+	main #cooming-soon .main-box-left .box-left .input {
+		display: flex;
+	}
+	main #cooming-soon .main-box-left .box-left .title h2 {
+		font-size: 45px;
+	}
+	main #cooming-soon .main-box-left .box-left .subtitle p {
+		font-size: 32px;
+	}
+	main #slider2 .slider2-main-box .box-text .box-title h2 {
+		font-size: 38px;
+	}
+	main #punti-vendita .search {
+		width: 204px;
+	}
+	main #punti-vendita .sidebar {
+		width: 80%;
+		margin: auto;
+	}
+	main #nuova-apertura .main-box .box-centered .title h2 {
+		font-size: 30px;
+	}
+	main #nuova-apertura .main-box .box-centered {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	main #lavora-con-noi .container-fluid .main-box .box-title h2 {
+		font-size: 44px;
+	}
+	footer .row-top .col-lg-12 .main-box {
+		display: block;
+		justify-content: space-between;
+		align-items: center;
+	}
+	footer .logo {
+		margin-bottom: 15px;
+	}
+	footer .logo img {
+		width: 200px;
+	}
+}
+
+
+/*
+*
+*
+*
+*
+*
+*
+*
+*
+/********* media query tablets *********/
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	header .navbar {
+		position: relative;
+		width: 100%;
+		transition: top 0.3s;
+	}
+	header #navbarNav {
+		width: 100%;
+	}
+	header .navbar .navbar-nav img.logo-desktop {
+		display: none;
+	}
+	header .navbar .navbar-brand img.logo-mobile {
+		display: block;
+	}
+	main #hero {
+		padding-top: 0;
+	}
+	main #banner1 .banner1-main-box .box-text .box-title h2 {
+		font-size: 38px;
+	}
+	main #banner1 .banner1-main-box .box-text .box-p p {
+		font-size: 38px;
+	}
+	main #cta1 .cta1-main-box {
+		padding: 0 10px;
+	}
+	main #cta1 .cta1-main-box .box-text h2 {
+		font-size: 28px;
+	}
+	main #cooming-soon .main-box-left {
+		padding: 25px;
+	}
+	main #cooming-soon .main-box-left .box-left {
+		width: 100%;
+	}
+	main #cooming-soon .main-box-left .box-left .input {
+		display: flex;
+	}
+	main #cooming-soon .main-box-left .box-left .title h2 {
+		font-size: 45px;
+	}
+	main #cooming-soon .main-box-left .box-left .subtitle p {
+		font-size: 32px;
+	}
+	main #slider2 .slider2-main-box .box-text .box-title h2 {
+		font-size: 38px;
+	}
+	main #punti-vendita .search {
+		width: 204px;
+	}
+	main #nuova-apertura .main-box .box-centered .title h2 {
+		font-size: 30px;
+	}
+	main #nuova-apertura .main-box .box-centered {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	main #lavora-con-noi .container-fluid .main-box .box-title h2 {
+		font-size: 44px;
+	}
+	footer .row-top .col-lg-12 .main-box {
+		display: block;
+		justify-content: space-between;
+		align-items: center;
+	}
+	footer .logo {
+		margin-bottom: 15px;
+	}
+	footer .logo img {
+		width: 200px;
+	}
+}
+
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	header .navbar {
+		position: relative;
+		width: 100%;
+		transition: top 0.3s;
+	}
+	header #navbarNav {
+		width: 100%;
+	}
+	header .navbar .navbar-nav img.logo-desktop {
+		display: block;
+	}
+	header .navbar .navbar-brand img.logo-mobile {
+		display: none;
+	}
+	main #hero {
+		padding-top: 0;
+	}
+	main #banner1 .banner1-main-box .box-text .box-title h2 {
+		font-size: 38px;
+	}
+	main #banner1 .banner1-main-box .box-text .box-p p {
+		font-size: 38px;
+	}
+	main #cta1 .cta1-main-box {
+		padding: 0 10px;
+	}
+	main #cta1 .cta1-main-box .box-text h2 {
+		font-size: 28px;
+	}
+	main #cooming-soon .main-box-left {
+		padding: 25px;
+	}
+	main #cooming-soon .main-box-left .box-left {
+		width: 100%;
+	}
+	main #cooming-soon .main-box-left .box-left .input {
+		display: flex;
+	}
+	main #cooming-soon .main-box-left .box-left .title h2 {
+		font-size: 45px;
+	}
+	main #cooming-soon .main-box-left .box-left .subtitle p {
+		font-size: 32px;
+	}
+	main #slider2 .slider2-main-box .box-text .box-title h2 {
+		font-size: 38px;
+	}
+	main #punti-vendita .search {
+		width: 204px;
+	}
+	main #nuova-apertura .main-box .box-centered .title h2 {
+		font-size: 30px;
+	}
+	main #nuova-apertura .main-box .box-centered {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	main #lavora-con-noi .container-fluid .main-box .box-title h2 {
+		font-size: 44px;
+	}
+	footer .row-top .col-lg-12 .main-box {
+		display: block;
+		justify-content: space-between;
+		align-items: center;
+	}
+	footer .logo {
+		margin-bottom: 15px;
+	}
+	footer .logo img {
+		width: 200px;
+	}
+}
